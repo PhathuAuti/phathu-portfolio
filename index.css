@@ -5,49 +5,52 @@
   
 }
 
-.header {
+header {
   width: 100%;
-  height: 600px;
-  background-size: cover;
-  background-image: url(Phathz.jpeg);
 }
 
 .nav .menu-bar {
   width: 100%;
   text-align: left;
-  background: rgba(2,2,2,0.2);
-  background-color: rgba(0, 0, 0,.2);
+  background: rgba(88, 88, 88, 0);
+  background-color: rgb(0, 0, 0, .6);
 
 }
 
 .menu-bar li{
   list-style-type: none;
   display: inline-block;
-  padding: 9px;
-  margin: 50px 10px;
-  font-size: 25px;
-  font-family: fantasy;
+  padding: 3px;
+  margin: 20px 10px;
+  font-size: 20px;
+  font-family: sans-serif;
+  font-weight: bold;
+  color: #DBA159;
   cursor: pointer;
 }
 
 .menu-bar li:hover {
-  background: #ff9999;
+  background: rgb(59, 34, 3);
+  width: auto;
 }
 
-footer{
-  
-  background:#ff9999;
-  height: 45px;
+.bio {
+  color: #DBA159;
+}
+.footer{
   align-content: center;
 
 }
 
-@media only screen and (min-width: 600px) {
-  .bod {
-    width: 100%;
-    text-align: left;
-    padding-left: 40px;
-    padding-top: 2px;
-    font-family: fantasy;
-  }
+body {
+  color: #DBA159;
+  font-family: sans-serif;
+  font-size: 15px;
+  line-height: 1.0;
+  text-align: left;
+  padding: 20px;
+  margin: 20px;
+  overflow: hidden;
+  background-image: url(Auti.jpeg);
+  background-size: cover;
 }
