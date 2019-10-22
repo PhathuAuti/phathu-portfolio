@@ -56,7 +56,7 @@ p {
 
 #intro .bg-image {
   position: absolute;
-  background: #333 url('Phathu.jpeg');
+  background: #333 url('Phathu.jpeg');<a href="https://www.instagram.com/phathu_tshedzo/"> <i class="fab fa-instagram" style="display: inline-block;"></i></a>
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -150,8 +150,32 @@ p {
     display: grid;
     grid-template-columns: 1fr repeat(2, minmax(auto, 25em)) 1fr;
   }
+  #first .content-text {
+    columns: 2;
+    column-gap: 2em;
+  }
+  #first .content-text p{
+    padding-top: 0;
+  }
   .text-wrap, #second ul {
     grid-column: 2/4;
+  }
+  /* #third .content-text {
+    columns: 2;
+    column-gap: 2em;
+  } */
+  #third .content-text p{
+    padding-top: 0;
+  }
+  .contacts, #main-footer div {
+    grid-column: span 2;
+  }
+  #second ul {
+    display: flex;
+    justify-content: space-around;
+  }
+  #second li {
+    width: 31%;
   }
 }
 
