@@ -25,17 +25,43 @@ p {
 }
 
 .nav .menu-bar {
-  width: 100%;
-  text-align: left;
+  position: fixed;
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 96%;
+  left: 0;
+  text-align: right;
   background: rgba(88, 88, 88, 0);
   background-color: rgb(0, 0, 0, .4);
+  z-index: 1;
 }
+
+.logo img {
+  position: left;
+  height: 100px;
+  width: 100px;
+  align-items: 10px;
+  justify-content: flex-start;
+  
+  /* margin-top: 15px;
+  margin-left: 10px; */
+}
+/* 
+.nav a {
+  width: 10px;
+  display: inline-block;
+  text-decoration: none;
+  align-content: flex-start;
+} */
 
 .menu-bar li{
   list-style-type: none;
   display: inline-block;
   padding: 3px;
-  margin: 20px 10px;
+  margin: 10px 15px;
+  margin-right: 15%;
   color: #fff;
   font-weight: bold;
   font-family: Arial, Helvetica, sans-serif;
@@ -56,12 +82,12 @@ p {
 
 #intro .bg-image {
   position: absolute;
-  background: #333 url('Phathu.jpeg');<a href="https://www.instagram.com/phathu_tshedzo/"> <i class="fab fa-instagram" style="display: inline-block;"></i></a>
+  background: #333 url('Phathu.jpeg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
-  height: 600px;
+  height: 700px;
   z-index: -1;
   opacity: 0.3;
 }
@@ -89,8 +115,8 @@ p {
 }
 
 #first h1 {
-  padding-top: 20px;
-  padding-bottom: 0;
+  padding-top: 5px;
+  padding-bottom: 8px;
 }
 
 #first h3 {
@@ -141,8 +167,9 @@ p {
 }
 
 #main-footer a {
-  color: coral;
+  color: #f26d7d;
   text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 @media(min-width: 700px) {
@@ -160,10 +187,6 @@ p {
   .text-wrap, #second ul {
     grid-column: 2/4;
   }
-  /* #third .content-text {
-    columns: 2;
-    column-gap: 2em;
-  } */
   #third .content-text p{
     padding-top: 0;
   }
