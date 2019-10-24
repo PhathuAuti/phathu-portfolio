@@ -69,7 +69,7 @@ p {
 }
 
 .menu-bar li:hover {
-  background: #eaeaea;
+  background: coral;
   color: #333;
   width: auto;
 }
@@ -82,7 +82,7 @@ p {
 
 #intro .bg-image {
   position: absolute;
-  background: #333 url('Phathu.jpeg');
+  background: #333 url('Auti.jpeg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -115,8 +115,9 @@ p {
 }
 
 #first h1 {
-  padding-top: 5px;
-  padding-bottom: 8px;
+  color: coral;
+  padding-top: 0;
+  padding-bottom: 15px;
 }
 
 #first h3 {
@@ -144,6 +145,27 @@ p {
   padding: 1.5em; 
 }
 
+.more {
+  display: none;
+}
+
+.skills-content:not(:last-child) {
+  margin-bottom: 30px;
+}
+
+button .read {
+  margin-top: 15px;
+  display: block;
+  background-color: #fff;
+  color: #333;
+  border: none;
+  outline: none;
+  padding: 8px 20px;
+  text-transform: capitalize;
+  cursor: pointer;
+  font-size: 20px;
+}
+
 #third {
   background: #fff;
   color: #333;
@@ -157,6 +179,7 @@ p {
 
 #fourth .contacts:first-child {
   background: coral;
+  color: #333;
 }
 
 #main-footer {
@@ -167,7 +190,7 @@ p {
 }
 
 #main-footer a {
-  color: #f26d7d;
+  color: coral;
   text-decoration: none;
   font-family: Arial, Helvetica, sans-serif;
 }
